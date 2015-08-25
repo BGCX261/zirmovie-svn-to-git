@@ -1,0 +1,129 @@
+	body{
+    		background: #88B3D0;
+    		margin: 0;
+    		padding: 0;
+			font-family: "Calibri",helvetica;
+    	}
+		
+			img{border: none;}
+			a:link, a:visited, a:hover{ color: #5191BB; text-decoration: none;}
+			
+			
+    	#wrapper{
+    		background: #F0F0F0;
+    		margin: 82px auto;
+    		width: 500px;
+    		height: auto;
+    		padding: 10px;
+    		-moz-border-radius: 10px;
+    		border: 6px solid #5191BB;
+    	}
+    	
+    	
+    	.name{
+    		font-size: 20px;
+    		font-weight: bold;
+    		font-family: "Calibri",helvetica;
+    		text-transform: uppercase;		
+    		cursor: pointer;	
+		}
+				
+			#watched{
+				padding: 5px;
+				background: #FDAFAF;
+				opacity: 0.6;
+				-moz-border-radius: 3px;
+			}
+			#notwatched{
+				padding: 5px;
+				background: #C3E808;
+				opacity: 0.6;
+				-moz-border-radius: 3px;
+			}
+		
+			.tools{
+				align: center;
+				margin-left: 332px;
+				margin-top: -4px;
+			}	
+		
+		.name img{float: right; display: none;}
+    	
+    	.descr{
+    		width: 91%;
+    	}
+    	
+		#insert input, textarea{
+				width: 95%;
+				margin: 0 auto;
+				text-align: center;
+				margin-top: 2px;
+				-moz-border-radius: 5px;
+				border: 1px solid #B7D1E3;
+				font-size: 15px;
+				font-weight: 500;
+				padding: 5px;
+		}
+		
+				#insert input:hover, textarea:hover{
+					border: 1px solid #5191BB;
+				}
+				
+				#insert input:focus, textarea:focus{
+					border: 1px solid #5191BB;
+				}
+		
+				#insert input[type=submit]{
+						background: #5191BB;
+						color: #EFEFEF;
+						border: none;
+						-moz-border-radius: 5px;
+						margin-top: 10px;
+						padding: 5px;
+						width: 100%;
+						height: 40px;
+				}
+			
+    	#moviesLeft{
+    		float: right;
+			margin: -50px -70px 0 0;
+			background: #5191BB;
+			-moz-border-radius: 10px;
+			padding: 10px;
+    	}
+    	
+    	#empty{
+    		background: #F48686;
+    		-moz-border-radius: 6px;
+    		padding: 10px;
+    		text-align: center;
+    	}
+    	
+    	#theMovie{
+    		height: auto;
+    		padding: 5px;
+    		border: 1px solid #B7D1E3;
+    		display: none;
+    		-moz-border-radius: 6px;
+    	}
+    	
+    	#logo{
+			background:transparent url(logo.png) no-repeat scroll center center;
+			height:200px;
+			margin: 0 auto;
+			position:relative;
+			top:101px;
+			width:200px;
+    	}
+    	
+    	#logo span{
+			color:#E5E5E5;
+			font-family:helvetica;
+			font-weight:800;
+			left:28px;
+			opacity:0.7;
+			position:relative;
+			text-transform:uppercase;
+			top:77px;
+    	}
+    	
